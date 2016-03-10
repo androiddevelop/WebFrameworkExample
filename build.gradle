@@ -19,5 +19,5 @@ dependencies {
     compile 'org.apache.struts:struts2-core:2.3.20'
     compile 'com.google.code.gson:gson:2.3.1'
     compile 'me.codeboy.common:base:1.2.0'
-    compile 'me.codeboy.common:framework:1.1.0'
+    compile 'me.codeboy.common:framework:1.1.1'
 }
