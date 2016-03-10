@@ -93,6 +93,6 @@
     <orderEntry type="library" name="Gradle: org.ow2.asm:asm-tree:5.0.2" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: junit:junit:4.12" level="project" />
     <orderEntry type="library" name="Gradle: com.google.code.gson:gson:2.6.2" level="project" />
-    <orderEntry type="library" name="Gradle: me.codeboy.common:framework:1.1.0" level="project" />
+    <orderEntry type="library" name="Gradle: me.codeboy.common:framework:1.1.1" level="project" />
   </component>
 </module>
