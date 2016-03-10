@@ -2,7 +2,7 @@ package me.codeboy.examples;
 
 import me.codeboy.common.base.log.CBPrint;
 import me.codeboy.examples.bean.CBUser;
-import me.codeboy.framework.hibernate.core.CBHibernateTask;
+import me.codeboy.common.framework.hibernate.core.CBHibernateTask;
 import org.hibernate.Session;
 
 /**

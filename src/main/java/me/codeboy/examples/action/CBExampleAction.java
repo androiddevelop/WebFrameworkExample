@@ -2,10 +2,10 @@ package me.codeboy.examples.action;
 
 import com.opensymphony.xwork2.ActionSupport;
 import me.codeboy.examples.bean.CBUser;
-import me.codeboy.framework.hibernate.core.CBHibernateTask;
-import me.codeboy.framework.workflow.bean.CBCommonResult;
-import me.codeboy.framework.workflow.core.CBCommonResultCode;
-import me.codeboy.framework.workflow.core.CBResponseController;
+import me.codeboy.common.framework.hibernate.core.CBHibernateTask;
+import me.codeboy.common.framework.workflow.bean.CBCommonResult;
+import me.codeboy.common.framework.workflow.core.CBCommonResultCode;
+import me.codeboy.common.framework.workflow.core.CBResponseController;
 import org.hibernate.Session;
 
 import java.util.ArrayList;
