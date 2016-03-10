@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+        "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+    <constant name="struts.devMode" value="true"/>
+    <package name="codeboy" extends="struts-default" namespace="/">
+
+        <default-action-ref name="operateSuccess" />
+
+        <action name="operateSuccess" class="me.codeboy.examples.action.CBExampleAction" method="operateSuccess"/>
+        <action name="operateFailed" class="me.codeboy.examples.action.CBExampleAction" method="operateFailed"/>
+        <action name="operateRawData" class="me.codeboy.examples.action.CBExampleAction" method="operateRawData"/>
+        <action name="operateDatabase" class="me.codeboy.examples.action.CBExampleAction" method="operateDatabase"/>
+    </package>
+
+</struts>
